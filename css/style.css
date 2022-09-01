@@ -19,17 +19,22 @@ main {
     min-height: 500px;
     /* background-color: blue; */
     font-family:'Fredoka', sans-serif;
-    text-align: center;
     padding: 30px 15px;
 }
 
 /* header */
+header {
+    text-align:justify;
+    text-align-last: center;
+    margin-bottom: 15px;
+}
+
 h1 {
     color: rgb(229, 49, 112);
     font-size: 40px;
 }
 
-p {
+header p {
     margin-top: 15px;
     padding: 20px 0;
     color: rgb(44, 44, 44);
@@ -42,19 +47,36 @@ p {
 
 /* single column */
 .col {
-    background-color: rgb(147, 199, 245);
     border: 1px solid black;           
     width: calc(100% / 3);
     min-height: 400px;
-    float: left;
-    color: white;    
+    float: left;    
 }
 
 .col div {
     background-color: black;
+    color: white;
+    height: 100px;
+    margin-bottom: 40px;
 }
 
 .col img {
-    width: 30%;
+    height: 100%;
     float: left;
+}
+ 
+.card-description {
+    text-align: justify;
+    display: inline-block;
+    float: left;
+    padding: 10px ;
+    line-height: 25px;
+}
+
+.name-bold {
+    font-weight: bold;
+}
+
+.mail {
+    color: deepskyblue;
 }
