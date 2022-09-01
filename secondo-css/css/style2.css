@@ -1,0 +1,79 @@
+/* utility */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/* general */
+main {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 1200px;
+    min-height: 500px;
+    font-family:'Fredoka', sans-serif;
+    padding: 30px 15px;
+}
+
+/* header */
+header {
+    text-align:center;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: rgb(229, 49, 112);
+    font-size: 40px;
+}
+
+header p {
+    margin-top: 25px;
+    padding: 20px 0;
+    color: rgb(44, 44, 44);
+}
+
+/* single row*/
+.row {
+    min-height: 100px;
+    margin-bottom: 15px;
+}
+
+/* single card */
+.single-card{
+    background-color: black;
+    height: 100px;
+    margin: 12px;
+    width: calc((100% - 72px) / 3);
+    float: left;
+    color: white;
+    box-shadow: 0px 0px 3px 0px #000000;
+    
+}
+
+.single-card img {
+    height: 100%;
+    float: left;
+}
+ 
+/* card descriptions */
+.card-description {
+    text-align: left;
+    display: inline-block;
+    float: left;
+    padding: 10px ;
+    line-height: 25px;
+}
+
+.name-bold {
+    font-weight: bold;
+}
+
+.mail {
+    color: deepskyblue;
+}
